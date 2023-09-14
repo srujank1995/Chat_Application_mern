@@ -2,11 +2,12 @@ const {chats} = require('./data.js')
 
 const express = require("express")
 const dotenv = require("dotenv");
+const connect = require('./Database/Config/Db.js');
 const app = express();
 dotenv.config();
-
-const PORT= process.env.PORT
-app.listen(3030,console.log( `server is up .. at ${PORT}`))
+connect();
+const port= process.env.PORT
+app.listen(3030,console.log( `server is up .. at ${port}`))
 
 app.get("/", (req,res)=>{
     res.send(`/Backend/Data/Data.js`)
