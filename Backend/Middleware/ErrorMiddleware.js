@@ -4,8 +4,8 @@ const notfound = (req, res, next) =>{
     next(error);
 };
 
-const errorhandler = (req, res, next, err) =>{
-    const statusCode= res.statusCode === 200 ? 500 : statusCode;
+const errorhandler = (err, res, req, next) =>{
+    const statusCode= res.statusCode === 200 ? 500 : res.statusCode;
     res.status(statusCode);
     res.json({
         message: err.message,
