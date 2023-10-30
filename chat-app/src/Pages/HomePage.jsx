@@ -23,7 +23,7 @@ const HomePage = () => {
           fontWeight="extrabold"
         >
           {" "}
-          CHAT-ZENITH{" "}
+          CHAT-APP{" "}
         </Text>
       </Box>
       <Box bg='whitesmoke' w="100%" p={4} borderRadius="lg" borderWidth="1px">

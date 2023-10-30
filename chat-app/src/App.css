@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Work+Sans:ital,wght@1,200&display=swap");
 
-.App{
-  min-height: 100vh;
-  display: flex;
-  background: url("https://img.freepik.com/free-photo/brown-wooden-flooring_53876-90802.jpg?w=1060&t=st=1694685834~exp=1694686434~hmac=43d97eb2f4a50c702426e9a67a1b2b9b2fdf965a9058aa5f2f5f29d769ee3b6a");
-  background-size: contain;
-  background-position: center;
+.App {
+ 
+  background-color: rgba(43, 43, 45, 0.971);
+
+  width: 100%;
+  height:200em;
 }
